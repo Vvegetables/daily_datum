@@ -1,0 +1,22 @@
+lsof -i:端口号  #查看这个端口的进程
+lsof -i:80
+
+lsof /usr/sbin/nginx #查看nginx服务是否启动
+
+find / -name nginx #查看nginx的文件位置
+
+#服务启动，重启，停止
+/usr/sbin/nginx -s stop|reload|start
+
+#查看全部进程
+ps -le 
+ps -aux | grep nginx
+
+
+#查看系统登录用户
+w
+
+#踢出登录用户
+pkill -t 终端号
+
+uwsgi重新启动：http://blog.51cto.com/12482328/2087535?cid=702003

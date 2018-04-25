@@ -1,0 +1,4 @@
+https://sourceforge.net/projects/licensegenerate/
+
+
+https://github.com/verhas/License3j

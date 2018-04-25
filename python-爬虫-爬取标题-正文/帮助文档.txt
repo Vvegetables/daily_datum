@@ -1,0 +1,8 @@
+文档链接地址：
+	https://github.com/grangier/python-goose
+
+
+一些文章：
+http://www.360doc.com/content/14/1230/14/13647213_436867437.shtml
+
+https://blog.csdn.net/levy_cui/article/details/51481306

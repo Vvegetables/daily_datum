@@ -1,0 +1,11 @@
+查询：
+	http://lib.csdn.net/article/python/1453
+创建：
+	https://blog.csdn.net/hedan2013/article/details/54863830
+
+	https://blog.csdn.net/hedan2013/article/details/54927160
+
+	https://blog.csdn.net/kikaylee/article/details/53616222
+
+新增：
+	https://www.jianshu.com/p/e6bba189fcbd
