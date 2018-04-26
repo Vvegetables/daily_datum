@@ -2,8 +2,13 @@ lsof -i:端口号  #查看这个端口的进程
 lsof -i:80
 
 lsof /usr/sbin/nginx #查看nginx服务是否启动
+pgrep nginx #查看nginx服务是否启动
+pgrep crond #查看crontab定时服务是否启动
 
 find / -name nginx #查看nginx的文件位置
+
+grep 是在文件中查找，而find是在系统中查找
+
 
 #服务启动，重启，停止
 /usr/sbin/nginx -s stop|reload|start
@@ -20,3 +25,10 @@ w
 pkill -t 终端号
 
 uwsgi重新启动：http://blog.51cto.com/12482328/2087535?cid=702003
+
+
+
+####4-25
+centos7 通过yum安装的程序可以通过systemctl start|reload|stop|restart pro_name来启动
+
+通过源码安装的 只能通过绝对路径来启动
