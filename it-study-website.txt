@@ -1,0 +1,2 @@
+国外的一些代码sample网站：
+	https://www.programcreek.com/python/example/788/operator.or_
