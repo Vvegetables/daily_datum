@@ -9,3 +9,11 @@
 
 新增：
 	https://www.jianshu.com/p/e6bba189fcbd
+
+
+
+	https://wenku.baidu.com/view/60dd6a2e647d27284b73515b.html	
+
+
+官方文档：
+	http://docs.sqlalchemy.org/en/latest/
