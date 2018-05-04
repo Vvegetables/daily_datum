@@ -1,2 +1,7 @@
 一个工具 参考文档永远是最重要的。
 	http://scrapy-chs.readthedocs.io/zh_CN/0.24/intro/tutorial.html
+
+
+
+简书的翻译版：
+	https://www.jianshu.com/p/f51d93f82f21
