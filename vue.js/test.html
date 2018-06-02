@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="./vue.min.js"></script>
+  </head>
+  <body>
+    <div class='demo'>
+      <!-- 使用组件 -->
+      <button-counter></button-counter>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+    Vue.component('button-counter', {
+      data: function () {
+        return {
+          count: 0
+        }
+      },
+      template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+    })
+
+    // 组件定义的顺序 需要放在前面
+
+    new Vue({
+      el:'.demo',
+      data:{
+        part1:'part1',part2:'part2'
+      },
+      methods:{
+        deleteMessage:function(){
+          ;
+        }
+      }
+    })
+
+    // 定义一个名为 button-counter 的新组件
+
+
+  </script>
+</html>
