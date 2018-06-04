@@ -1,0 +1,16 @@
+需要看掉的书：
+	http://www.sohu.com/a/148683265_797635
+	http://baijiahao.baidu.com/s?id=1572411066624398&wfr=spider&for=pc
+
+
+python 文档：
+	https://docs.python.org/3/
+
+一些书籍分享：
+	http://www.iocoder.cn/Architecture/books-recommended/?jianshu&407
+
+
+
+
+流畅的python：
+	http://python.jobbole.com/88735/

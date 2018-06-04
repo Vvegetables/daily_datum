@@ -1,0 +1,19 @@
+查询：
+	http://lib.csdn.net/article/python/1453
+创建：
+	https://blog.csdn.net/hedan2013/article/details/54863830
+
+	https://blog.csdn.net/hedan2013/article/details/54927160
+
+	https://blog.csdn.net/kikaylee/article/details/53616222
+
+新增：
+	https://www.jianshu.com/p/e6bba189fcbd
+
+
+
+	https://wenku.baidu.com/view/60dd6a2e647d27284b73515b.html	
+
+
+官方文档：
+	http://docs.sqlalchemy.org/en/latest/
