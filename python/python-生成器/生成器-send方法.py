@@ -3,6 +3,7 @@ def gener():
     name = 'not input'
     while True:
         name = yield name
+        yield 2
         if name == None:
             name = "not input"
         else:
@@ -10,12 +11,20 @@ def gener():
 
 
 it = gener()
-print it.next()
+print it
 
 # print it.send(None)
-print it.send("zhainankl")
-print it.next()
-print it.next()
+# print it.send('ooo')
+# print it.next()
+
+
+print '#' * 20
+# print it.next()
+
+# # print it.send(None)
+# print it.send("zhainankl")
+# print it.next()
+# print it.next()
 # print it.next()
 
 

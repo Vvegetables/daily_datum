@@ -1,0 +1,3 @@
+redis-4.0.9是linux的资源
+
+redis-x64-3.2是windows的资源
