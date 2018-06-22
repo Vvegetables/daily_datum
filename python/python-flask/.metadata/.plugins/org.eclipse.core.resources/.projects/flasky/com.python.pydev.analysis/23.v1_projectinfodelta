@@ -1,0 +1,11 @@
+INSTUPapp.models
+D:\github_repo\study_2\python\python-flask\flasky\app\models.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&3|5|2|1&&2|6|2|1&&1|7|2|0&&3|3|2|7&&3|4|2|7&&3|8|2|7&&2|6|2|7
+Role=1
+User=7
+app.models=2
+name=5
+__repr__=6
+id=4
+__tablename__=3
+username=8

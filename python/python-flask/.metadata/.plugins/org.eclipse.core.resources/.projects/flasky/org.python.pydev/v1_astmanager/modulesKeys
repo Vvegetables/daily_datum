@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+app.__init__|D:\github_repo\study_2\python\python-flask\flasky\app\__init__.py
+app.email|D:\github_repo\study_2\python\python-flask\flasky\app\email.py
+app.errors|D:\github_repo\study_2\python\python-flask\flasky\app\errors.py
+app.forms|D:\github_repo\study_2\python\python-flask\flasky\app\forms.py
+app.models|D:\github_repo\study_2\python\python-flask\flasky\app\models.py
+app.views|D:\github_repo\study_2\python\python-flask\flasky\app\views.py
+config|D:\github_repo\study_2\python\python-flask\flasky\config.py
+manage|D:\github_repo\study_2\python\python-flask\flasky\manage.py
+tests.__init__|D:\github_repo\study_2\python\python-flask\flasky\tests\__init__.py

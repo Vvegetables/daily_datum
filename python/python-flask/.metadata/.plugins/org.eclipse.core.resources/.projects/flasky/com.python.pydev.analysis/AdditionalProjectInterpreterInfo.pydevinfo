@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\github_repo\study_2\python\python-flask\.metadata\.plugins\org.eclipse.core.resources\.projects\flasky\com.python.pydev.analysis\v2_indexcache
+app.email|1529465491540201000|D:\github_repo\study_2\python\python-flask\flasky\app\email.py
+app.errors|1529465533263104000|D:\github_repo\study_2\python\python-flask\flasky\app\errors.py
+app.models|1529465506895332000|D:\github_repo\study_2\python\python-flask\flasky\app\models.py
+tests.__init__|1529465570645354000|D:\github_repo\study_2\python\python-flask\flasky\tests\__init__.py
+app.views|1529465551210824000|D:\github_repo\study_2\python\python-flask\flasky\app\views.py
+config|1529466648489721000|D:\github_repo\study_2\python\python-flask\flasky\config.py
+app.forms|1529465540801879000|D:\github_repo\study_2\python\python-flask\flasky\app\forms.py
+manage|1529465597214725000|D:\github_repo\study_2\python\python-flask\flasky\manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=TestingConfig
+2=DevelopmentConfig
+3=Config
+5=ProductionConfig
+1=config
+-- END DICTIONARY
+-- START TREE 1
+10
+bas|1|basedir!11@
+boo|0|
+con|2|Config!9@config!11@
+cre|0|
+db|0|
+dev|1|DevelopmentConfig!9@
+mai|0|
+mom|0|
+pro|1|ProductionConfig!9@
+tes|1|TestingConfig!9@
+-- END TREE
+-- START TREE 2
+7
+deb|1|DEBUG!2&11@
+fla|3|FLASKY_MAIL_SUBJECT_PREFIX!3&11@FLASKY_ADMIN!3&11@FLASKY_MAIL_SENDER!3&11@
+ini|1|init_app!3&10@
+mai|5|MAIL_USERNAME!2&11@MAIL_USE_TLS!2&11@MAIL_PASSWORD!2&11@MAIL_SERVER!2&11@MAIL_PORT!2&11@
+sec|1|SECRET_KEY!3&11@
+sql|4|SQLALCHEMY_DATABASE_URI!2&11@SQLALCHEMY_DATABASE_URI!4&11@SQLALCHEMY_DATABASE_URI!5&11@SQLALCHEMY_COMMIT_ON_TEARDOWN!3&11@
+tes|1|TESTING!4&11@
+-- END TREE
