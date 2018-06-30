@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//app/__init__.py=utf-8
+encoding//app/auth/__init__.py=utf-8
+encoding//app/auth/views.py=utf-8
+encoding//app/errors.py=utf-8
+encoding//app/models.py=utf-8
+encoding//app/views.py=utf-8
+encoding//tests/test_user_model.py=utf-8
+encoding//venv/Lib/site-packages/flask/templating.py=utf-8
+encoding//venv/Lib/site-packages/jinja2/environment.py=utf-8
+encoding//venv/Lib/site-packages/jinja2/loaders.py=utf-8
+encoding//venv/Lib/site-packages/werkzeug/http.py=utf-8
+encoding/config.py=utf-8
+encoding/manage.py=utf-8

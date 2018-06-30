@@ -1,0 +1,44 @@
+#coding=utf-8
+from flask_login.mixins import UserMixin
+from flask_sqlalchemy.model import Model
+from sqlalchemy.sql.schema import Column, ForeignKey
+from sqlalchemy.sql.sqltypes import Integer, String
+from werkzeug import generate_password_hash, check_password_hash
+
+from . import login_manager
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+
+class Role(Model):
+    __tablename__ = 'roles'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(64), unique=True)
+    
+    def __repr__(self):
+        return '<Role %r>' % self.name
+
+
+class User(UserMixin,Model):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    email = Column(String(64),unique=True,index=True)
+    username = Column(String(64), unique=True, index=True)
+    password_hash = Column(String(256))
+    role_id = Column(Integer,ForeignKey('roles.id')) #roles==tablename
+    
+    @property
+    def password(self):
+        raise AttributeError('password is not a readable attribute')
+    
+    @password.setter
+    def password(self,password):
+        self.password_hash = generate_password_hash(password)
+    
+    def __repr__(self):
+        return '<User %r>' % self.username
+    
+    def verify_password(self,password):
+        return check_password_hash(self.password_hash,password)

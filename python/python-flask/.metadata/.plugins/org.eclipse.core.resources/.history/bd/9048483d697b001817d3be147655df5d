@@ -1,0 +1,16 @@
+#coding=utf-8
+from alembic.autogenerate import render
+from flask import render_template
+
+from app.auth.forms import LoginForm
+from app.models import User
+
+from . import auth
+
+
+@auth.route('/login')
+def login():
+    form = LoginForm()
+    if form.validate_on_submit():
+#         user = User.query.filter_by(email=form.email.data).first()
+        User.query.all()
