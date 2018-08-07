@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>项目管理布局</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-2.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		html{
+			width:100%;
+			height: 100%;
+		}
+		body{
+			width:100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		#left{
+			float: left;
+			width: 15%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.7);
+			box-shadow: 0 0 3px 3px #9C9B9B;
+			position: fixed;
+			box-sizing: border-box;
+			overflow: auto;
+			
+		}
+		#right{
+			float:right;
+			width: 1600px;
+			height: 1000px;
+			background-color: #B8ACDB;
+			box-shadow: 0 0 3px 3px #9C9B9B;
+			margin: 5px;
+			padding: 3px;
+		}
+		.headtitle{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			background-color: #BDBDBD;
+			height: 64px;
+			/*color: white;*/
+			position: relative;
+		}
+		.headtitle .title-position{
+			top:15px;
+			left: 50px;
+			position: absolute;
+		}
+		.headtitle .h2{
+			margin: 0;
+			padding: 0;
+			/*vertical-align 这个不好用*/
+			/*vertical-align: middle;*/
+			display: inline-block;
+		}
+		.right-header .nav{
+			
+			font-size: 25px;
+		}
+		.right-container-iframe{
+			width: 100%;
+			height: 800px;
+		}
+		hr{
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="left">
+		<div class="headtitle">
+			<div class="title-position">
+				<span class="glyphicon glyphicon-cloud"></span>
+				<h2 class="h2">青塔<small>项目管理</small></h2>
+			</div>
+		</div>
+		<div class="left-container">
+			<ul class="nav nav-pills nav-stacked">
+			    <li class="active"><a href="##">我的任务</a></li>
+			 	<li><a href="##">需求列表</a></li>
+			 	<li><a href="##">动态</a></li>
+			 	<li><a href="##">组织</a></li>
+			    <li class="nav-divider"></li>
+			 	<li class="disabled"><a href="##">Responsive</a></li>
+			</ul>
+
+		</div>
+	</div>
+	<div id="right">
+		<div class="right-header">
+			<!-- 导航栏 -->
+			<ul class="nav nav-pills right-nav">
+			    <li class="active"><a href="##">我的任务</a></li>
+			 	<li><a href="##">需求列表</a></li>
+			 	<li><a href="##">动态</a></li>
+			 	<li><a href="##">日程</a></li>
+			 	<li class="disabled"><a href="##">产品</a></li>
+			</ul>
+			<hr>
+		</div>
+		<div class="rignt-container">
+			<iframe src="product.html" frameborder="0" class="right-container-iframe"></iframe>
+		</div>
+	</div>
+</body>
+</html>

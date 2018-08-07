@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>新增产品</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-2.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="tag-increase/jQuery-Tags-Input-master/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="tag-increase/jQuery-Tags-Input-master/jquery.tagsinput.css">
+	<script type="text/javascript" src="tag-increase/jQuery-Tags-Input-master/jquery.tagsinput.js"></script>
+	<style type="text/css">
+		.place{
+			height: 50px;
+		}
+		.create-title{
+			text-align: center;
+			font-family: STHupo;
+			text-shadow: 0 0 3px;
+		}
+		.create-input{
+			display: inline-block;
+			width: 80%;
+		}
+		.panel-shadow{
+			box-shadow: 0 0 5px 3px #EAE6E6;
+		}
+	</style>
+</head>
+<body>
+	<div class="place"></div>
+	<div class="create-title"><h1>产品的新增或编辑</h1></div>
+	<div class="place"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="text-align: center;">
+				<!-- <h3>面板中嵌套列表组（二）</h3> -->
+				<div class="panel panel-default panel-shadow">
+					<div class="panel-heading" style="text-align: right;font-size: 20px;"><a href="#"><span class="glyphicon glyphicon-remove"></span></a></div>
+					<div class="panel-body">
+						<p>
+							通过填写以下表单完成产品的创建和编辑
+						</p>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							    <label for="inputEmail3" class="control-label">名称：</label>
+							    <div class="create-input">
+							      <input type="email" class="form-control" id="inputEmail3" placeholder="请输入产品名称">
+							    </div>
+						</li>
+						<li class="list-group-item">
+							<label for="inputEmail3" class="control-label">名称：</label>
+						    <div class="create-input">
+						      <input type="email" class="form-control" id="inputEmail3" placeholder="请输入产品名称">
+						    </div>
+						</li>
+						<li class="list-group-item">
+							<label for="inputEmail3" class="control-label">名称：</label>
+						    <div class="create-input">
+						      <input type="email" class="form-control" id="inputEmail3" placeholder="请输入产品名称">
+						    </div>
+						</li>
+						<li class="list-group-item">
+							<label for="tags_1" class="control-label">名称：</label>
+							<div class="create-input">
+								<input type="text" class="tags form-control" id="tags_1" value="登录,爬虫,全景">
+							</div>
+						</li>
+					</ul>
+					<div class="panel-footer" style="text-align: right;font-size: 20px;"><a href="#"><span class="glyphicon glyphicon-ok"></span></a></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+
+	function onAddTag(tag) {
+		alert("添加一个模块: " + tag);
+	}
+
+	function onRemoveTag(tag) {
+		alert("删除一个模块: " + tag);
+	}
+
+	function onChangeTag(input,tag) {
+		alert("更改一个模块: " + tag);
+	}
+	$(function() {
+		$('#tags_1').tagsInput({width:'auto'});
+	});
+</script>
+</html>
