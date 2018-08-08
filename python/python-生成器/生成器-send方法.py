@@ -43,6 +43,7 @@ def gener():
 
 
 it = gener()
+#it.next() == it.send(None)
 print it.next()
 
 # print it.send(None)
