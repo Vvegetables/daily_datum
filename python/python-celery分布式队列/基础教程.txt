@@ -1,0 +1,7 @@
+1.
+	http://python.jobbole.com/87238/
+2.  Celery ValueError: not enough values to unpack (expected 3, got 0)的解决方案
+	
+	https://blog.csdn.net/qq_30242609/article/details/79047660
+	
+	http://www.itamt.com/2018/04/windows-celery-4-1-issue-valueerror-not-enough-values-to-unpack/

@@ -1,0 +1,2 @@
+redis »ù´¡½Ì³Ì£º
+	http://www.runoob.com/redis/redis-commands.html
